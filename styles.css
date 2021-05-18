@@ -8,7 +8,9 @@
 }
 body{
 
-    background: linear-gradient( to right, beige, snow)
+    background: linear-gradient( to right, beige, snow);
+    
+    
 }
 
 .resume{
@@ -20,21 +22,55 @@ body{
 }
 .left{
     background: grey; 
-    width: 250px;
-    padding: 0 20px; 
+    width: 300px;
+    padding: 0 10px 5px; 
+    list-style: none;
+    color: rgb(54, 53, 53);
 
 }
 .left.picture{
-    width:200px;
+    width:100px;
     border-radius:30px;
 }
-.right{
-    width:calc(100% - 250px)
+
+ img{
+    width: 160px; 
+    border-radius: 100px;
+    margin: 5px 0px 2px 40px;
+}
+.information{
+    justify-content: right;
+    padding-left: 10px;
 }
 .title{
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
-    padding-bottom: 10px
+    padding-top: 10px;
+    text-align: center; 
+}
+.contact-list{
+    display:flex; 
+    align-items: center;
+    width: 100;
+    margin-bottom:15px;
+}
+.contact-list .icon{
+    width:50px; 
+    height: 50px;
+    background: white; 
+    border-radius: 30px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-right:15px;  
+
+}
+
+.contact-list .text{
+    width: 200px;
+    word-break:break-word; 
+    color: white; 
+
 }
